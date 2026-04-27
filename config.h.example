@@ -1,0 +1,11 @@
+// config.h.example - Rename this to config.h and fill in your details
+#ifndef CONFIG_H
+#define CONFIG_H
+
+const char* WIFI_SSID = "YOUR_SSID";
+const char* WIFI_PASS = "YOUR_PASSWORD";
+const char* SERVER_URL = "http://your-api-endpoint.com/post.php";
+String API_KEY   = "YOUR_SECRET_KEY";
+String STATION_ID = "STATION_NAME";
+
+#endif
